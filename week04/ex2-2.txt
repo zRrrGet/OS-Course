@@ -1,0 +1,116 @@
+systemd-+-ModemManager---2*[{ModemManager}]
+        |-NetworkManager---2*[{NetworkManager}]
+        |-Telegram---2*[{Telegram}]
+        |-accounts-daemon---2*[{accounts-daemon}]
+        |-acpid
+        |-agent---2*[{agent}]
+        |-at-spi-bus-laun-+-dbus-daemon
+        |                 `-3*[{at-spi-bus-laun}]
+        |-at-spi2-registr---2*[{at-spi2-registr}]
+        |-avahi-daemon---avahi-daemon
+        |-baloo_file---2*[{baloo_file}]
+        |-bluetoothd
+        |-colord---2*[{colord}]
+        |-crashpad_handle---2*[{crashpad_handle}]
+        |-crashpad_handle---{crashpad_handle}
+        |-cron
+        |-cups-browsed---2*[{cups-browsed}]
+        |-cupsd
+        |-dbus-daemon
+        |-gmenudbusmenupr---2*[{gmenudbusmenupr}]
+        |-haveged
+        |-irqbalance---{irqbalance}
+        |-kdeconnectd---3*[{kdeconnectd}]
+        |-kdeinit5-+-DiscoverNotifie---3*[{DiscoverNotifie}]
+        |          |-file.so
+        |          |-5*[http.so---2*[{http.so}]]
+        |          |-kaccess---2*[{kaccess}]
+        |          |-kded5-+-konsole-+-bash---ex2-+-ex2-+-ex2-+-ex2-+-ex2---ex2
+        |          |       |         |            |     |     |     `-ex2
+        |          |       |         |            |     |     |-ex2---ex2
+        |          |       |         |            |     |     `-ex2
+        |          |       |         |            |     |-ex2-+-ex2---ex2
+        |          |       |         |            |     |     `-ex2
+        |          |       |         |            |     |-ex2---ex2
+        |          |       |         |            |     `-ex2
+        |          |       |         |            |-ex2-+-ex2-+-ex2---ex2
+        |          |       |         |            |     |     `-ex2
+        |          |       |         |            |     |-ex2---ex2
+        |          |       |         |            |     `-ex2
+        |          |       |         |            |-ex2-+-ex2---ex2
+        |          |       |         |            |     `-ex2
+        |          |       |         |            |-ex2---ex2
+        |          |       |         |            `-ex2
+        |          |       |         `-17*[{konsole}]
+        |          |       |-konsole-+-bash---pstree
+        |          |       |         `-17*[{konsole}]
+        |          |       `-6*[{kded5}]
+        |          `-klauncher---2*[{klauncher}]
+        |-2*[kerneloops]
+        |-kio_http_cache_---{kio_http_cache_}
+        |-ksmserver-+-kwin_x11---31*[{kwin_x11}]
+        |           `-2*[{ksmserver}]
+        |-kwalletd5---2*[{kwalletd5}]
+        |-networkd-dispat
+        |-openvpn
+        |-org_kde_powerde---5*[{org_kde_powerde}]
+        |-plasmashell-+-Telegram---41*[{Telegram}]
+        |             |-chrome-+-2*[cat]
+        |             |        |-chrome---chrome---20*[{chrome}]
+        |             |        |-chrome-+-chrome-+-chrome---5*[{chrome}]
+        |             |        |        |        |-14*[chrome---12*[{chrome}]]
+        |             |        |        |        |-chrome---4*[{chrome}]
+        |             |        |        |        `-chrome---11*[{chrome}]
+        |             |        |        `-nacl_helper
+        |             |        |-2*[chrome---5*[{chrome}]]
+        |             |        |-plasma-browser----2*[{plasma-browser-}]
+        |             |        `-37*[{chrome}]
+        |             |-qtcreator---21*[{qtcreator}]
+        |             |-spotify-+-spotify---spotify---21*[{spotify}]
+        |             |         |-spotify---spotify---13*[{spotify}]
+        |             |         |-spotify---4*[{spotify}]
+        |             |         `-35*[{spotify}]
+        |             `-31*[{plasmashell}]
+        |-polkit-kde-auth---4*[{polkit-kde-auth}]
+        |-polkitd---2*[{polkitd}]
+        |-rsyslogd---3*[{rsyslogd}]
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-sddm-+-Xorg---17*[{Xorg}]
+        |      |-sddm-helper---startplasma-x11-+-plasma_session---{plasma_session}
+        |      |                               |-ssh-agent
+        |      |                               `-{startplasma-x11}
+        |      `-{sddm}
+        |-snapd---22*[{snapd}]
+        |-start_kdeinit
+        |-systemd-+-(sd-pam)
+        |         |-baloorunner---2*[{baloorunner}]
+        |         |-dbus-daemon
+        |         |-dconf-service---2*[{dconf-service}]
+        |         |-kactivitymanage---5*[{kactivitymanage}]
+        |         |-kglobalaccel5---2*[{kglobalaccel5}]
+        |         |-krunner-+-Discord-+-Discord---Discord---26*[{Discord}]
+        |         |         |         |-Discord---Discord
+        |         |         |         |-Discord---4*[{Discord}]
+        |         |         |         |-Discord---32*[{Discord}]
+        |         |         |         |-Discord---5*[{Discord}]
+        |         |         |         `-32*[{Discord}]
+        |         |         `-37*[{krunner}]
+        |         |-kscreen_backend---2*[{kscreen_backend}]
+        |         |-obexd
+        |         |-pulseaudio---3*[{pulseaudio}]
+        |         |-xdg-desktop-por---3*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---18*[{xdg-desktop-por}]
+        |         |-xdg-document-po---5*[{xdg-document-po}]
+        |         `-xdg-permission----2*[{xdg-permission-}]
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-resolve
+        |-systemd-timesyn---{systemd-timesyn}
+        |-systemd-udevd
+        |-udisksd---4*[{udisksd}]
+        |-unattended-upgr---{unattended-upgr}
+        |-upowerd---2*[{upowerd}]
+        |-whoopsie---2*[{whoopsie}]
+        |-wpa_supplicant
+        |-xembedsniproxy---2*[{xembedsniproxy}]
+        `-xsettingsd

@@ -1,0 +1,1 @@
+It is needed to access every byte inside page, so the number of bytes inside page  will be 8*1024=2^3*2^10=2^13. The offset is 13 bits, 16-3=3 bits left for entries. 2^3 = 8. Finally, 8 entries are needed.

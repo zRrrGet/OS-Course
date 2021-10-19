@@ -1,0 +1,5 @@
+To increase ratio we can access the same page, so it will be loaded once and won't be removed.
+Example: 1 1 1 1 1
+
+To decrease ratio we should access different pages, so it would require frequent load/remove operations.
+Example: 1 2 3 4 5

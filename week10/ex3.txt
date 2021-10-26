@@ -1,0 +1,6 @@
+-rw-rw-rw- 1 zrrrget zrrrget 8 окт 26 21:05 _ex3.txt
+-rwxrw-rwx 1 zrrrget zrrrget 8 окт 26 21:05 _ex3.txt
+-rwxrwxrwx 1 zrrrget zrrrget 8 окт 26 21:05 _ex3.txt
+660 means that owner and group members can write and read the file, others can't
+775 means owner have all permissions, group members have all permisions, others can read and execute
+777 means everybody has all permissions
